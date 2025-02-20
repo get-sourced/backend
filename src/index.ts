@@ -4,6 +4,7 @@ import cors from "cors";
 import cookieParser from "cookie-parser";
 import morgan from "morgan";
 import mongoose from "mongoose";
+import error from "./controllers/error/error";
 //For env File
 dotenv.config({ path: "./.env" });
 //main express app
